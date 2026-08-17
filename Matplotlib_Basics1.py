@@ -115,13 +115,3 @@ plt.bar(x, y2)
 plt.title("Bar Graph")
 plt.show()
 
-#Example 11
-x = [1, 2, 3, 4, 5]
-y1 = [10, 20, 15, 30, 25]
-y2 = [5, 15, 25, 20, 35]
-fig, ax = plt.subplots(1, 2)
-ax[0].plot(x, y1)
-ax[0].set_title("Line Graph")
-ax[1].bar(x, y2)
-ax[1].set_title("Bar Graph")
-plt.show()
